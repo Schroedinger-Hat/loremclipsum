@@ -78,7 +78,6 @@ Default value 1
 Default value "lorem"
 
 _example_
-
 `loremclipsum -p 5 -i cat`
 
 <!-- CONTRIBUTING -->
