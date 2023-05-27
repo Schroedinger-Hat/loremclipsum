@@ -71,6 +71,12 @@ Use the cli:
 
 `loremclipsum [-p [--paragraph] int] [-i [--ipsum] string]`
 
+`-p, --paragraph`
+Default value 1
+
+`-i, --ipsum`
+Default value "lorem"
+
 _example_
 
 `loremclipsum -p 5 -i cat`
