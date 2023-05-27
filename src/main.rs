@@ -33,8 +33,13 @@ fn main() {
     let ipsum_type = args.ipsum.as_str();
 
     let ipsum = generate_ipsum(num_paragraphs, ipsum_type);
-    println!("{}", ipsum);
     ctx.set_contents(ipsum.to_owned()).unwrap();
+
+    println!(
+        "{} paragraphs of {} ipsum copied to clipboard",
+        num_paragraphs, ipsum_type
+    );
+    process::exit(0);
 }
 
 fn generate_ipsum(num_paragraphs: u8, ipsum_type: &str) -> String {
@@ -47,7 +52,7 @@ fn generate_ipsum(num_paragraphs: u8, ipsum_type: &str) -> String {
         _ => None,
     };
 
-    let mut ipsum = ipsum.unwrap().repeat(num_paragraphs as usize);
+    let ipsum = ipsum.unwrap().repeat(num_paragraphs as usize);
 
     ipsum
 }
