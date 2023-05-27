@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1>Lorem _cli_psum</h1>
+  <h1>Lorem _cli_ psum</h1>
   
   <a href="https://github.com/Schrodinger-Hat/loremclipsum">
     <img src="public/sh.png" alt="Logo" width="80" height="80">
