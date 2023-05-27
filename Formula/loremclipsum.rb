@@ -7,7 +7,7 @@ class Loremclipsum < Formula
     license "MIT"
   
     def install
-        system "tar", "xf", "loremclipsum.tar.gz"
+        system "tar", "--extract", "--file", "loremclipsum.tar.gz"
 
         # Move the extracted files to the appropriate location
         bin.install "loremclipsum/loremclipsum"
