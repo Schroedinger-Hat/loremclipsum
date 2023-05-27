@@ -80,6 +80,8 @@ Default value "lorem"
 _example_
 `loremclipsum -p 5 -i cat`
 
+The console will output that you can _paste_ your _ipsum_ with your keyboard now.
+
 <!-- CONTRIBUTING -->
 
 ## Contributing
