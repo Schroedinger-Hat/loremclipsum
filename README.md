@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1>Lorem _cli_ psum</h1>
+  <h1>Lorem <i>cli</i>psum</h1>
   
   <a href="https://github.com/Schrodinger-Hat/loremclipsum">
     <img src="public/sh.png" alt="Logo" width="80" height="80">
@@ -67,8 +67,8 @@ This is built in `rust`
 
 Install `rust` on your systems. Run `cargo install --path [a path of your choice]`.
 
-Use the cli: 
- 
+Use the cli:
+
 `loremclipsum [-p [--paragraph] int] [-i [--ipsum] string]`
 
 _example_
