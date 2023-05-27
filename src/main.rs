@@ -21,7 +21,7 @@ fn main() {
 
     let valid_ipsum = ["lorem", "bacon", "cat", "hipster", "zombie"];
 
-    if (!valid_ipsum.contains(&args.ipsum.as_str())) {
+    if !valid_ipsum.contains(&args.ipsum.as_str()) {
         println!(
             "Invalid argument: {}. Valid arguments are: {:?}",
             args.ipsum, valid_ipsum
