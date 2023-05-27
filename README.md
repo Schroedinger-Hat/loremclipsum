@@ -10,22 +10,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1>Template</h1>
+  <h1>Lorem _cli_psum</h1>
   
-  <a href="https://github.com/Schrodinger-Hat/template">
+  <a href="https://github.com/Schrodinger-Hat/loremclipsum">
     <img src="public/sh.png" alt="Logo" width="80" height="80">
   </a>
 
   <p align="center">
     <br />
-    <a href="https://github.com/Schrodinger-Hat/template/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Schrodinger-Hat/loremclipsum/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://www.schrodinger-hat.it/">View Demo</a>
     ·
-    <a href="https://github.com/Schrodinger-Hat/Template/issues">Report Bug</a>
+    <a href="https://github.com/Schrodinger-Hat/loremclipsum/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Schrodinger-Hat/Template/issues">Request Feature</a>
+    <a href="https://github.com/Schrodinger-Hat/loremclipsum/issues">Request Feature</a>
   </p>
 </div>
 
@@ -49,13 +49,27 @@
 
 ## About The Project
 
-Here goes the description
+Types of `ipsums` present as of now:
+
+- Cat Ipsum
+- Lorem Ipsum
+- Bacon Ipsum
+- Hipster Ipsum
+- Zombie Ipsum
 
 ### Tech stack
+
+This is built in `rust`
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+
+Install `rust` on your systems. Run `cargo install --path [a path of your choice]`.
+
+Use the cli:
+`loremclipsum [-p [--paragraph] int] [-i [--ipsum] string]`
+`loremclipsum -p 5 -i cat`
 
 <!-- CONTRIBUTING -->
 
@@ -72,17 +86,16 @@ Don't forget to give the project a star! Thanks again!
 
 Schrodinger's Hat Team - [@schrodinger_hat](mailto:schrodinger.hat.show@gmail.com)
 
-Project Link: [https://github.com/Schrodinger-Hat/template](https://github.com/Schrodinger-Hat/template)
+Project Link: [https://github.com/Schrodinger-Hat/loremclipsum](https://github.com/Schrodinger-Hat/loremclipsum)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Schrodinger-Hat/template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Schrodinger-Hat/template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Schrodinger-Hat/template.svg?style=for-the-badge
-[forks-url]: https://github.com/Schrodinger-Hat/template/network/members
-[stars-shield]: https://img.shields.io/github/stars/Schrodinger-Hat/template?style=for-the-badge
-[stars-url]: https://github.com/Schrodinger-Hat/template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Schrodinger-Hat/template.svg?style=for-the-badge
-[issues-url]: https://github.com/Schrodinger-Hat/template/issues
-
+[contributors-shield]: https://img.shields.io/github/contributors/Schrodinger-Hat/loremclipsum.svg?style=for-the-badge
+[contributors-url]: https://github.com/Schrodinger-Hat/loremclipsum/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Schrodinger-Hat/loremclipsum.svg?style=for-the-badge
+[forks-url]: https://github.com/Schrodinger-Hat/loremclipsum/network/members
+[stars-shield]: https://img.shields.io/github/stars/Schrodinger-Hat/loremclipsum?style=for-the-badge
+[stars-url]: https://github.com/Schrodinger-Hat/loremclipsum/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Schrodinger-Hat/loremclipsum.svg?style=for-the-badge
+[issues-url]: https://github.com/Schrodinger-Hat/loremclipsum/issues
