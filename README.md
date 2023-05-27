@@ -65,6 +65,19 @@ This is built in `rust`
 
 ## Usage
 
+### Install it
+
+Unzip the `loremclipsum.tar.gz` and `mv` the executable so that it can be found in your `$PATH` variable.
+
+```
+mv loremclipsum /usr/local/bin/
+
+chmod +x /usr/local/bin/loremclipsum
+
+loremclipsum
+```
+### Build it
+
 Install `rust` on your systems. Run `cargo install --path [a path of your choice]`.
 
 Use the cli:
