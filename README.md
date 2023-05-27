@@ -67,8 +67,9 @@ This is built in `rust`
 
 Install `rust` on your systems. Run `cargo install --path [a path of your choice]`.
 
-Use the cli:
-`loremclipsum [-p [--paragraph] int] [-i [--ipsum] string]`
+Use the cli: 
+ 
+`loremclipsum [-p [--paragraph] int] [-i [--ipsum] string]` 
 `loremclipsum -p 5 -i cat`
 
 <!-- CONTRIBUTING -->
