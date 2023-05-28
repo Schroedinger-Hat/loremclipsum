@@ -56,6 +56,8 @@ Types of `ipsums` present as of now:
 - Bacon Ipsum
 - Hipster Ipsum
 - Zombie Ipsum
+- Delorean Ipsum
+- Pirate Ipsum
 
 ### Tech stack
 
