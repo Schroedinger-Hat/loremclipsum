@@ -8,7 +8,7 @@ class Loremclipsum < Formula
   
     def install
         # Move the extracted files to the appropriate location
-        bin.install "loremclipsum/loremclipsum"
+        bin.install "loremclipsum"
 
         # Make the executable executable
         chmod "+x", bin/"loremclipsum"
