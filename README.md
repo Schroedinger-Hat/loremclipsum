@@ -112,6 +112,8 @@ Available ipsums:
 `loremclipsum -i bacon`   
 `loremclipsum -i hipster`   
 `loremclipsum -i zombie`   
+`loremclipsum -i delorean`  
+`loremclipsum -i pirate`  
 
 
 <!-- CONTRIBUTING -->
