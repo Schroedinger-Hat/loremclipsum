@@ -65,7 +65,14 @@ This is built in `rust`
 
 ## Usage
 
-### Install it
+### Install it with Homebrew
+
+```
+ brew tap Schrodinger-Hat/loremclipsum https://github.com/Schrodinger-Hat/loremclipsum
+ brew update
+ brew install loremclipsum
+```
+### Install it manually
 
 Unzip the `loremclipsum.tar.gz` and `mv` the executable so that it can be found in your `$PATH` variable.
 
