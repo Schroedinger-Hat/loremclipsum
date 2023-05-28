@@ -105,11 +105,11 @@ The console will output that you can _paste_ your _ipsum_ with your keyboard now
 
 Available ipsums: 
 
-`loremclipsum -i lorem`
-`loremclipsum -i cat`
-`loremclipsum -i bacon`
-`loremclipsum -i hipster`
-`loremclipsum -i zombie`
+`loremclipsum -i lorem` 
+`loremclipsum -i cat` 
+`loremclipsum -i bacon` 
+`loremclipsum -i hipster` 
+`loremclipsum -i zombie` 
 
 
 <!-- CONTRIBUTING -->
