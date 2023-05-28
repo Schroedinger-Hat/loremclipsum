@@ -63,7 +63,7 @@ This is built in `rust`
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+## Installation
 
 ### Install it with Homebrew
 
@@ -87,7 +87,8 @@ loremclipsum
 
 Install `rust` on your systems. Run `cargo install --path [a path of your choice]`.
 
-Use the cli:
+
+## Usage
 
 `loremclipsum [-p [--paragraph] int] [-i [--ipsum] string]`
 
