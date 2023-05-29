@@ -56,6 +56,8 @@ Types of `ipsums` present as of now:
 - Bacon Ipsum
 - Hipster Ipsum
 - Zombie Ipsum
+- Delorean Ipsum
+- Pirate Ipsum
 
 ### Tech stack
 
@@ -110,6 +112,8 @@ Available ipsums:
 `loremclipsum -i bacon`   
 `loremclipsum -i hipster`   
 `loremclipsum -i zombie`   
+`loremclipsum -i delorean`  
+`loremclipsum -i pirate`  
 
 
 <!-- CONTRIBUTING -->
