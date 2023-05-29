@@ -1,6 +1,6 @@
 [package]
 name = "loremclipsum"
-version = "0.1.0"
+version = "1.0.1"
 authors = ["Lorenzo Pieri, 404answernotfound"]
 license = "MIT"
 description = "A cli tool to copy paste different ipsums"
