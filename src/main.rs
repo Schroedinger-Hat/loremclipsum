@@ -19,7 +19,7 @@ fn main() {
     let args = Cli::parse();
     let mut ctx: ClipboardContext = ClipboardProvider::new().unwrap();
 
-    let valid_ipsum = ["lorem", "bacon", "cat", "hipster", "zombie"];
+    let valid_ipsum = ["lorem", "bacon", "cat", "hipster", "zombie", "delorean", "pirate"];
 
     if !valid_ipsum.contains(&args.ipsum.as_str()) {
         println!(
@@ -49,6 +49,8 @@ fn generate_ipsum(num_paragraphs: u8, ipsum_type: &str) -> String {
         "bacon" => Some(ipsums::BACON_IPSUM.to_string()),
         "hipster" => Some(ipsums::HIPSTER_IPSUM.to_string()),
         "zombie" => Some(ipsums::ZOMBIE_IPSUM.to_string()),
+        "delorean" => Some(ipsums::DELOREAN_IPSUM.to_string()),
+        "pirate" => Some(ipsums::PIRATE_IPSUM.to_string()),
         _ => None,
     };
 
